@@ -11,21 +11,25 @@
     rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   width: 20%;
   height: 15%;
-  text-align: center;
   border-radius: 9px;
   background-color: #fff;
   font-size: 14px;
+  position: relative;
+  
+  
+  
 }
 
 .Botcard img {
   height: 100%;
   width: 100%;
-  background-color: darkgray;
+  background-color:#efedef;
   border-radius: 9px;
 }
 
 .Catchphrase {
   width: 100%;
+  word-wrap: break-word;
 }
 
 .icons-section {
@@ -34,6 +38,7 @@
   text-align: center;
   align-items: center;
   margin: 16px 0px;
+  justify-content: center;
 }
 
 .FavBots {
@@ -62,7 +67,28 @@
 
 .closeIcon {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  font-size: 24px;
+   top: 8px;
+   right: 8px;
+   
+  
+}
+.allinclusive {
+    padding: 12px;
+}
+
+.BotsCollection {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.FavBots {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }

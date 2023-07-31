@@ -1,13 +1,18 @@
-import React from 'react'
-import BotCard from "./BotCard"
+import React from "react";
+import BotCard from "./BotCard";
 
-
-function BotsCollection() {
+function BotsCollection({ showBots , handleFavourites}) {
+    
   return (
-    <div className = "BotsCollection" >
-        <BotCard />
+    <div className="BotsCollection">
+      
+
+      {showBots.map((oneBot) => {
+        
+        return <BotCard oneBot = {oneBot} key = {oneBot.id} handleFavourites = {handleFavourites}/>;
+      })}
     </div>
-  )
+  );
 }
 
-export default BotsCollection ;
+export default BotsCollection;

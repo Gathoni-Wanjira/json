@@ -1,12 +1,17 @@
 import React from 'react'
-import BotCard from "./BotCard"
+import FavouriteCard from './FavouriteCard';
 
-function FavouriteBots() {
+
+function FavouriteBots({favourites, handleDeleteFavourite}) {
   return (
     <div className = "FavBots">
-        <BotCard />
+        
+        {favourites.map((favourite) => {
+        
+        return <FavouriteCard handleDeleteFavourite = {handleDeleteFavourite} favourites = {favourite} key = {favourite.id}/>;
+      })}
     </div>
   )
 }
 
-export default FavouriteBots
+export default FavouriteBots;
