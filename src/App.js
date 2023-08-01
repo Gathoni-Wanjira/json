@@ -12,7 +12,7 @@ const [favourites , setFavourites] = useState([])
 useEffect(() => {
     console.log("Test UseEffects")
 
-    fetch("http://localhost:8000/bots")
+    fetch("https://jsono.onrender.com/bots")
     .then((Response) => Response.json())
     .then((AllBots) => {
       console.log(AllBots);
