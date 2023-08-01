@@ -1240,4 +1240,4 @@ The following have been used on this project:
 
 ## Copyright
 
-Released under the MIT License. See the [LICENSE](https://github.com/GATHONI-WANJIRA/Bot-Battlr/blob/main/LICENSE) file.
+Released under the MIT License. See the [LICENSE](https://github.com/GATHONI-WANJIRA/Bot-Battlr/blob/main/LICENSE) file.# json
